@@ -5,4 +5,4 @@ It's currently very basic. You give it a start date and an end date and it will 
 
 Here's a preview image of the output:
 
-![Alt text](./screenshots/screenshot.gif?raw=true "Sample Output")
+![Alt text](./screenshots/sample-table.gif?raw=true "Sample Output")
