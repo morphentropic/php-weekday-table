@@ -24,7 +24,7 @@
 	$total_days = floor($difference/(60*60*24) + 1);
 	
 	// Create the unchanging table header stuff
-	echo "<table class=\"table table-bordered table-hover table-condensed\"><tr><tr class=\"success text-center\"> <td colspan=\"8\">MONDAY</td> <td colspan=\"8\">TUESDAY</td> <td colspan=\"8\">WEDNESDAY</td> <td colspan=\"8\">THURSDAY</td> <td colspan=\"8\">FRIDAY</td> </tr><tr class=\"info\"> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> </tr>";
+	echo "<table><tr><tr> <td colspan=\"8\">MONDAY</td> <td colspan=\"8\">TUESDAY</td> <td colspan=\"8\">WEDNESDAY</td> <td colspan=\"8\">THURSDAY</td> <td colspan=\"8\">FRIDAY</td> </tr><tr> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td></td> <td>R</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> </tr>";
 		
 		// Repeat until we've gone through all the days in our range
 		for ($count = 0; $i < $total_days; $count++) { 
