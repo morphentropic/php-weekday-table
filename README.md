@@ -1,5 +1,5 @@
 # php-weekday-table
-PHP code to create an table with dates and periods - useful for school timetables.
+PHP code to create a simple HTML table with dates and periods for a specified range - useful for school timetables.
 
 It's currently very basic. You give it a start date and an end date and it will calculate the rest.
 
