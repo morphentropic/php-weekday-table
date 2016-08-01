@@ -89,8 +89,10 @@ $cspan = $Periods + 1;
 			echo "<td>";
 			// Put the date in it
 			echo date('d/m', $date);
-			// Close the cell and add some more blank ones for the periods
-			echo "</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n";
+			// Close the cell
+			echo "</td>\n";
+			// Add blank cells for the number of periods in a day
+			echo str_repeat("<td>&nbsp;</td>\n", $Periods);
 		} 
 	// Once all the days in the range have been written to the table, close the last row and the table	
 	} echo "</tr>\n</table>\n"; 
