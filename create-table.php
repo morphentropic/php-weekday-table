@@ -13,6 +13,8 @@ $Registration = true;
 // How many periods do you want in a day?
 $Periods = 6;
 
+// Don't need to change anything below this line
+
 // If there is a registration period on the table, increase the number of periods in a day by 1
 if ($Registration == true) {
 $Periods = $Periods + 1;
