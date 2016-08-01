@@ -1,3 +1,28 @@
+<?php
+
+// Let's set the variables first
+// Set your start date YYYY-MM-DD (Make sure it's a Monday)
+$startdate = strtotime('2017-06-05');
+	
+// Set your end date YYYY-MM-DD (Make sure it's a Friday)
+$enddate = strtotime('2017-07-21');
+
+// Set to 'true' if you want a registration before P1 or 'false' otherwise
+$Registration = true;
+
+// How many periods do you want in a day?
+$Periods = 6;
+
+// If there is a registration period on the table, increase the number of periods in a day by 1
+if ($Registration == true) {
+$Periods = $Periods + 1;
+}
+
+// Work out how many columns the 'DAY' cell needs to span
+$cspan = $Periods + 1;
+
+?>
+
 <!doctype html>
 <html>
 	<head>
@@ -11,11 +36,7 @@
 	</head> 
 <body>
 <?php
-	// Set your start date YYYY-MM-DD
-	$startdate = strtotime('2017-06-05');
 	
-	// Set your end date YYYY-MM-DD
-	$enddate = strtotime('2017-07-21');
 	
 	// Calculate the difference between the dates in seconds
 	$difference = $enddate - $startdate;
